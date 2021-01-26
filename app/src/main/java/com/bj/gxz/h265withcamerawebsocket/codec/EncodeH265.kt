@@ -3,11 +3,8 @@ package com.bj.gxz.h265withcamerawebsocket.codec
 import android.media.MediaCodec
 import android.media.MediaCodecInfo
 import android.media.MediaFormat
-import android.os.Environment
 import android.util.Log
 import com.bj.gxz.h265withcamerawebsocket.util.YUVUtil
-import java.io.FileOutputStream
-import java.io.FileWriter
 import java.io.IOException
 import java.nio.ByteBuffer
 import kotlin.experimental.and

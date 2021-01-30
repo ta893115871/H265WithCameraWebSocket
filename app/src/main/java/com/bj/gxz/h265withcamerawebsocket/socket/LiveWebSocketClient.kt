@@ -15,7 +15,8 @@ class LiveWebSocketClient : BaseWebSocket() {
     companion object {
         private const val TAG = "LiveWebSocketClient"
         private const val PORT = 30000
-        // 另一台手机的IP
+
+        // 另一台手机的IP，如果自己测试自己改下哦
         private const val URL = "ws://192.168.1.3:$PORT"
     }
 

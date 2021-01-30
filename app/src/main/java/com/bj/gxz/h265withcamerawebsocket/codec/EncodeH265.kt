@@ -71,6 +71,9 @@ class EncodeH265 {
             val byteBuffer: ByteBuffer? = mediaCodec?.getInputBuffer(inputBufferIndex)
             byteBuffer?.clear()
             byteBuffer?.put(yuv!!)
+            // PTS
+            // 1。 +132的目的是解码端初始化播放器需要时间，防止播放器首帧没有播放的问题，不一定是132us
+            // 2。 frameIndex初始值=1，不加132，也可以。
             val presentationTimeUs = 132 + frameIndex * 1000_000 / FPS
             mediaCodec?.queueInputBuffer(inputBufferIndex, 0, yuv!!.size, presentationTimeUs, 0)
             frameIndex++

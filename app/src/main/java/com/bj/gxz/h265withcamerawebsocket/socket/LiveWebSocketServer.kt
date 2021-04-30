@@ -9,7 +9,7 @@ import java.net.InetSocketAddress
 import java.nio.ByteBuffer
 
 /**
- * Created by guxiuzhong@baidu.com on 2021/1/23.
+ * Created by guxiuzhong on 2021/1/23.
  */
 class LiveWebSocketServer : BaseWebSocket() {
 

@@ -10,7 +10,7 @@ import java.nio.ByteBuffer
 import kotlin.experimental.and
 
 /**
- * Created by guxiuzhong@baidu.com on 2021/1/23.
+ * Created by guxiuzhong on 2021/1/23.
  */
 class EncodeH265 {
     companion object {

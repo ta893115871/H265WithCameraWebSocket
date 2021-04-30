@@ -12,7 +12,7 @@ import com.bj.gxz.h265withcamerawebsocket.socket.LiveWebSocketClient
 import com.bj.gxz.h265withcamerawebsocket.socket.LiveWebSocketServer
 
 /**
- * Created by guxiuzhong@baidu.com on 2021/1/23.
+ * Created by guxiuzhong on 2021/1/23.
  */
 class LiveManager(private val localHolder: SurfaceHolder, private val remoteHolder: SurfaceHolder) {
 

@@ -5,7 +5,7 @@ import android.util.Log
 import android.view.SurfaceHolder
 
 /**
- * Created by guxiuzhong@baidu.com on 2021/1/23.
+ * Created by guxiuzhong on 2021/1/23.
  */
 class CameraHelper(
     private val holder: SurfaceHolder,

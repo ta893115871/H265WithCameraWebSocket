@@ -1,7 +1,7 @@
 package com.bj.gxz.h265withcamerawebsocket.util
 
 /**
- * Created by guxiuzhong@baidu.com on 2021/1/23.
+ * Created by guxiuzhong on 2021/1/23.
  */
 object YUVUtil {
 

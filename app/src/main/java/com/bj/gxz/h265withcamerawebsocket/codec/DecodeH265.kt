@@ -7,7 +7,7 @@ import android.view.Surface
 import java.io.IOException
 
 /**
- * Created by guxiuzhong@baidu.com on 2021/1/23.
+ * Created by guxiuzhong on 2021/1/23.
  */
 class DecodeH265 {
 
